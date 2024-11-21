@@ -1,0 +1,764 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.for-mobile {
+    display: none;
+}
+
+body {
+    background: #FFFFF3;
+    overflow-x: hidden;
+}
+
+.vs-nav-container {
+    gap: 22vw;
+    padding: 2vh;
+}
+
+.nav-center {
+    background-color: white;
+    padding: 0.5vw 1vw;
+    border-radius: 20px;
+
+    position: fixed;
+    left: 32%;
+    top: 2vh;
+    z-index: 100;
+    /* gap: 2vw; */
+}
+
+.nav-center a{
+    padding: 0.3vw 0.8vw;
+    color: black;
+    border-radius: 20px;
+    font-size: 1vw ;
+    transition: all 0.3s;
+
+}
+
+.nav-center a:hover {
+    color: white;
+    background-color: #111F3C;
+
+}
+
+
+.hero-Container {
+    padding: 2vw;
+}
+
+.hero-left {
+    width: 50%;
+}
+.hero-left h1 {
+    font-size: 7vw;
+}
+
+.hero-left h2 {
+    font-size: 4vw;
+}
+
+.hero-left p {
+    max-width: 80%;
+    line-height: 1.9vw;
+}
+
+/* From Uiverse.io by niat786 */ 
+.button-vs {
+    border: none;
+    color: #fff;
+    /* background-image: linear-gradient(30deg, #0400ff, #4ce3f7); */
+    background-color: #111F3C;
+
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 1vw;
+    padding: 0.5vw 1vw;
+
+    width: 25%;
+   }
+   
+.button-vs:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #2d4e8f;
+
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-right img {
+    width: 48vw;
+    height: 80vh;
+}
+
+
+.grocery-adds {
+    padding: 2vw;
+    
+}
+
+.grocery-left {
+    width: 50%;
+    padding: 0 1vw;
+}
+
+.grocery-left h1 {
+    font-size: 5vw;
+}
+
+.grocery-left h4{
+    font-family: "Familjen Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+.grocery-left h5{
+    font-family: "Familjen Grotesk", sans-serif;
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+
+.grocery-right {
+    width: 50%;
+}
+
+.grocery-right img{
+
+    /* object-fit: cover; */
+    width: 100%;
+    height: 40vh;
+
+    object-fit: cover;
+    object-position: 15% 110%;
+}
+
+
+.product-category {
+    padding: 2vw;
+}
+
+.cart-container {
+    padding: 2vw;
+}
+
+
+
+
+/* HEART CODE :-  */
+
+
+.cart-box {
+    border-radius: 30px;
+    padding: 1vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.fa-heart-o {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .fa-heart {
+    color: red;
+    cursor: pointer;
+  }
+
+  .cart-box img {
+    width: 100%;
+    /* height: 20vh; */
+    object-fit: cover;
+  }
+
+  .cart-box h2 {
+    font-size: 1Svw;
+  }
+
+  .cart-box div {
+    width: 100%;
+  }
+
+  .kg {
+    opacity: 0.7;
+    font-size: 0.9vw;
+  }
+
+  .heart-svg {
+    margin-top: -3vh;
+  }
+
+
+  .free-delivery {
+    padding: 2vw;
+  }
+
+
+  .ROW {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+
+  .choose-checkout {
+    padding: 2vw;
+  }
+
+  .choose-checkout-left img{
+    object-fit: cover;
+    width: 100%;
+  }
+
+ 
+  .cre-bro-bg {
+    position: relative;
+    /* background: blue; */
+    width: 100%;
+    min-height: 30vh;
+  }
+
+  .cream-background {
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    min-height: 20vh;
+    max-height: 20vh;
+    background-color: #FAEBD7;
+    border-radius: 20px;
+  }
+
+  .brown-background {
+    position: absolute;
+    width: 90%;
+    min-height: 20vh;
+    background-color: #780000;
+    border-radius: 20px;
+    bottom: 4vh;
+    right: 2vw;
+    max-height: 20vh;
+
+  }
+
+  .cream-background-right-logo {
+    position: absolute;
+    top: 0;
+    right: 2vw;
+  }
+
+  .choose-checkout-right-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2vh;
+    column-gap: 1vw;
+  }
+
+  .choose-right-boxes {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+
+  .choose-right-bx-left h2 {
+    font-size: 1.2vw;
+    font-weight: 700;
+  }
+
+  .choose-right-bx-left p {
+    font-size: 0.8vw;
+    font-weight: 400;
+  }
+
+  .Neighborhood {
+    padding: 2vw;
+  }
+
+  .Neighborhood-div {
+    background-color: #780000;
+    position: relative;
+    min-height: 40vh;
+    margin-top: 20vh;
+    border-radius: 20px;
+  }
+
+  .Neighborhood-div-left img {
+    position: absolute;
+    top: -10vh;
+  }
+
+  .Neighborhood-div-right {
+    position: absolute;
+    right: 10vw;
+    top: 10vh;
+  }
+
+
+  .button-vs-white {
+    border: none;
+    color: black;
+    /* background-image: linear-gradient(30deg, #0400ff, #4ce3f7); */
+    background-color: #e7eaee;
+
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 1vw;
+    padding: 0.5vw 1vw;
+
+    width: 20%;
+   }
+   
+.button-vs-white:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #c4c6c9;
+     /* background-color: #c4c6c9 */
+
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    
+   }
+
+}
+
+
+   footer {
+    background-color: #111F3C;
+    padding: 5vw 2vw;
+
+    border-radius: 30px 30px 0 0;
+   }
+
+   .footer-top {
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   }
+
+
+   .footer-top-left {
+    width: 30%;
+    padding-left: 6vw;
+    padding-top: 2vh;
+   }
+
+   .footer-top-left img {
+    width: 50%;
+   }
+
+   .footer-top-left h1 {
+    font-size: 2vw;
+   }
+
+   .tiy-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 1vh;
+    border-radius: 10px;
+    width: 40%;
+    font-weight: 600;
+    transition: all 0.4s;
+    /* font-size: 0.5vw; */
+   }
+
+
+   .tiy-btn:hover {
+    background-color: white;
+    color:  #111F3C;
+   }
+
+
+   .footer-top-right {
+    width: 70%;
+    position: relative;
+   }
+
+   .footer-top-right-top {
+    width: 100%;
+   }
+
+   .footer-top-right-top h2 {
+    font-size: 1.5vw;
+   }
+
+   .underLine {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+   }
+
+   .footer-top-right {
+    flex-direction: column;
+   }
+
+
+   .menu__link {
+    color: #fff;
+    line-height: 2;
+    position: relative;
+    /* width: ; */
+  }
+  
+  .menu__link::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #dd8508;
+    position: absolute;
+    bottom: -.25rem;
+    left: 50%;
+    transition: width .4s, left .4s;
+  }
+  
+  .menu__link:hover::before {
+    width: 100%;
+    left: 0;
+  }
+
+  .menu__link:hover {
+    color: #dd8508 !important;
+  }
+
+  .fire-gif {
+    border-radius: 20px;
+  }
+  .fire-gif h1 {
+    color: black;
+    font-size: 0.8vw;
+    width: 100%;
+    margin-top: 1vh;
+    padding-left: 1VW;
+
+  }
+
+  .fire-gif img {
+    width: 50px;
+    object-fit: contain;
+  }   
+
+
+  .fire-btn {
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 0.1vw 1vw;
+    font-size: 0.8vw;
+    /* justify-content: space-between; */
+    gap: 1vw;
+  }
+
+  .fire-btn img {
+    width: 27px;
+    height: 33px;
+  }
+
+  .party-btn {
+    font-size: 0.7vw;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    padding: 0.2vw 0.9vw;
+    border-radius: 20px;
+  }
+
+  .party-btn img {
+    width: 50px;
+    height: 30px;
+  }
+
+
+
+  /* From Uiverse.io by Yaya12085 */ 
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .playstore-button:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+  }
+  
+  .text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+  .text-2 {
+    font-weight: 600;
+  }
+
+  .ggl-btn {
+    position: absolute;
+
+    bottom: 25vh;
+    right: 0;
+  }
+
+  .footer-bttm-3 p {
+    transition: 0.2s;
+  }
+
+  .footer-bttm-3 p:hover {
+    color:#dd8508;
+    cursor: pointer;
+    
+  }
+
+
+  /* From Uiverse.io by vinodjangid07 */ 
+.Btn-insta {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .4s;
+    cursor: pointer;
+    position: relative;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    overflow: hidden;
+  }
+  
+  .svgIcon-insta {
+    transition-duration: .3s;
+  }
+  
+  .svgIcon-insta path {
+    fill: white;
+  }
+  
+  .text-insta {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    font-weight: 600;
+    opacity: 0;
+    transition-duration: .4s;
+  }
+  
+  .Btn-insta:hover {
+    width: 110px;
+    transition-duration: .4s;
+    border-radius: 30px;
+  }
+  
+  .Btn-insta:hover .text-insta {
+    opacity: 1;
+    transition-duration: .4s;
+  }
+  
+  .Btn-insta:hover .svgIcon-insta {
+    opacity: 0;
+    transition-duration: .3s;
+  }
+
+
+  /* From Uiverse.io by wilsondesouza */ 
+.Btn-link {
+    margin-left: -1vw;
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    background: #0274b3;
+  }
+  
+  .svgIcon-link {
+    transition-duration: 0.3s;
+  }
+  
+  .svgIcon-link path {
+    fill: white;
+  }
+  
+  .text-link {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    font-weight: 600;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  
+  .Btn-link:hover {
+    margin-left: -1vw;
+
+    width: 110px;
+    transition-duration: 0.4s;
+    border-radius: 30px;
+  }
+  
+  .Btn-link:hover .text-link {
+    opacity: 1;
+    transition-duration: 0.4s;
+  }
+  
+  .Btn-link:hover .svgIcon-link {
+    opacity: 0;
+    transition-duration: 0.3s;
+  }
+
+
+  /* From Uiverse.io by akshayjalluri6 */ 
+.container {
+    display: flex;
+  }
+  
+  .Btn {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  
+  .instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  
+  .youtube {
+    background-color: #ff0000;
+  }
+  
+  .twitter {
+    background-color: #1da1f2;
+  }
+  
+  .Btn:hover {
+    width: 110px;
+    transition-duration: 0.4s;
+    border-radius: 30px;
+  }
+  
+  .Btn:hover .text {
+    opacity: 1;
+    transition-duration: 0.4s;
+  }
+  
+  .Btn:hover .svgIcon {
+    opacity: 0;
+    transition-duration: 0.3s;
+  }
+  
+  .text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    font-weight: 600;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  
+  .svgIcon {
+    transition-duration: 0.3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  
+  

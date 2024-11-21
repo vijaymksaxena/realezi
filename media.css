@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+   .for-mobile{
+    display: block;
+   }
+
+   .for-desktop {
+    display: none;
+   }
+
+
+
+
+
+  }
