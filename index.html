@@ -14,6 +14,7 @@
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="stylesheet" href=""> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
@@ -28,7 +29,7 @@
 <body>
 
     <nav class="container-fluid for-desktop">
-        <div class="conainer  d-flex  align-items-center vs-nav-container">
+        <div class="conainer  d-flex  align-items-center vs-nav-container align-items-center">
 
             <img src="./assets/header-logo 1.svg" alt="" style="background-color: transparent;">
 
@@ -44,18 +45,26 @@
     </nav>
 
 
-    <nav class="for-mobile container-fluid">
+    <nav class="for-mobile mobile-nav container-fluid justify-content-between">
 
         <img src="./assets/header-logo 1.svg" alt="" style="background-color: transparent;">
+
+        <div class="menu-toggle -basic">
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
 
 
     </nav>
 
 
     <!-- hero section -->
-     <div class="hero-Container container-fluid  d-flex align-items-center">
+     <div class="hero-Container container-fluid  d-flex align-items=lg-center flex-column flex-sm-row">
 
-        <div class="hero-left d-flex flex-column align-items-start">
+        <div class="hero-left d-flex flex-column align-items-center align-items-lg-start">
 
 
             <h1 class=" fw-bold">
@@ -79,7 +88,7 @@
 
     <!--grocery adds  -->
      <div class="grocery-adds container-fluid">
-        <div class="grocery-conatiner bg-danger d-flex text-white align-items-center">
+        <div class="grocery-conatiner bg-danger d-flex flex-column flex-sm-row text-white align-items-center">
 
             <div class="grocery-left">
                 <h4>Fresh & Healthy</h4>
@@ -100,15 +109,15 @@
     <!-- product category -->
      <div class="product-category container-fluid ">
 
-        <div class="category-container bg-white p-2 d-flex gap-5">
+        <div class="category-container bg-white p-2 d-flex ">
 
             <a href="" class=" text-decoration-none text-black ">Grains & Flours</a>
             <a href="" class=" text-decoration-none text-black ">Dry Fruits & Nuts</a>
             <a href="" class=" text-decoration-none text-black ">Spices & Condiments</a>
             <a href="" class=" text-decoration-none text-black ">Oils & Ghee</a>
-            <a href="" class=" text-decoration-none text-black ">Personal Care</a>
-            <a href="" class=" text-decoration-none text-black ">Packaged & Instant Foods</a>
-            <a href="" class=" text-decoration-none text-black ">Dairy Products</a>
+            <a href="" class=" text-decoration-none text-black for-desktop">Personal Care</a>
+            <a href="" class=" text-decoration-none text-black for-desktop">Packaged & Instant Foods</a>
+            <a href="" class=" text-decoration-none text-black for-desktop ">Dairy Products</a>
             <a href=""><svg style="rotate: -90deg;" fill="black" height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.002 330.002" xml:space="preserve" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_24_" d="M229.966,0.847c-6.011-2.109-12.698-0.19-16.678,4.784L93.288,155.635 c-4.382,5.478-4.382,13.263,0.001,18.741l120,149.996c2.902,3.628,7.245,5.63,11.716,5.63c1.658,0,3.336-0.276,4.962-0.847 c6.012-2.108,10.035-7.784,10.035-14.154v-300C240.001,8.63,235.978,2.955,229.966,0.847z M210.001,272.24l-85.79-107.235 l85.79-107.241V272.24z"></path> </g></svg></a>
 
 
@@ -124,7 +133,7 @@
 
         <div class="ROW ">
 
-          <div class="columns-vs text-black text-center p-4 bg-white">
+          <div class="columns-vs text-black text-center p-1 p-sm-4 bg-white">
 
             <div class="cart-box  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -143,7 +152,7 @@
           </div>
 
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -162,7 +171,7 @@
           </div>
 
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -181,7 +190,7 @@
           </div>
 
 
-         <div class="columns-vs  text-black text-center p-4">
+         <div class="columns-vs  text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -202,7 +211,7 @@
 
         
 
-         <div class="columns-vs text-black text-center p-4">
+         <div class="columns-vs text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -225,7 +234,7 @@
           <!--  -->
 
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -244,7 +253,7 @@
           </div>
 
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -263,7 +272,7 @@
           </div>
 
           
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -282,7 +291,7 @@
           </div>
 
 
-         <div class="columns-vs text-black text-center p-4">
+         <div class="columns-vs text-black text-center p-1 p-sm-4">
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
                 
@@ -300,7 +309,7 @@
           </div>
 
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
 
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
@@ -323,7 +332,7 @@
 
           <!--  -->
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
                 
@@ -340,7 +349,7 @@
             </div>
           </div>
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
                 
@@ -357,7 +366,7 @@
             </div>
           </div>
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
                 
@@ -374,7 +383,7 @@
             </div>
           </div>
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
                 
@@ -391,7 +400,7 @@
             </div>
           </div>
 
-          <div class="columns-vs text-black text-center p-4">
+          <div class="columns-vs text-black text-center p-1 p-sm-4">
             <div class="cart-box bg-white  d-flex flex-column align-items-start p-2">
                 <img src="https://s3-alpha-sig.figma.com/img/0435/98e3/cc186b7bb799b4b8cf3e5d0380e36e02?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A5iIs5VB1Sg~CtN9tqQ6AnzvpSJbRLN1~4gKTVaJSX197e3MPUgV2K3Rs06LJIPYv9lxznWC6oQUNmbN2V4i9nlw0wE~LlFWb8Lrln4Rc36GC-0stBSYSseuu9nof4cpwB~Jed-vlGy2q9k~GEA9EroMq0KrCzbeFSBIX0UFHgO-B6tse3x39lMt1ysHLSrKYTK7f24OsFN8TAbgOoceif2soCfi-2xPGplxPIO2DkMJIY-falwNGREg5Tjo5DigSSVSf4~qHmwVEPTL2~S5dNO9GmQin1-YgRLCgZbiKqnR7KTb-boeBDEQKrar81YM2-kV7BJFpmQEkfkIIWgXDw__" alt="">
                 
@@ -424,9 +433,9 @@
     <!-- free delivery -->
     <div class="free-delivery container-fluid  mt-5">
 
-        <div class="row d-flex align-items-center">
+        <div class="free-del row d-flex flex-column flex-sm-row align-items-center">
 
-                <div class="free-delivery-left col-12 col-lg-6 d-flex flex-column gap-4">
+                <div class="free-delivery-left d-flex flex-column gap-2 gap-sm-4">
 
                     <h1 class="text-danger">From Store to Door – Fresh <br>
                         Groceries, Pay When Delivered!</h1>
@@ -441,7 +450,7 @@
                 </div>
 
 
-                <div class="free-delivery-right col-12 col-lg-6 d-flex justify-content-center">
+                <div class="free-delivery-right  d-flex justify-content-center">
                     <img class="image-fluid" src="./assets/scroll.svg" alt="">
                 </div>
 
@@ -463,7 +472,7 @@
 
             <div class="cre-bro-bg">
                 <div class="cream-background d-flex align-items-center">
-                    <div class="cream-background-left px-5">
+                    <div class="cream-background-left px-1 px-sm-5">
                         <h2>Choose, Checkout, <br> Dispatch, Delight!</h2>
                     </div>
 
@@ -479,7 +488,7 @@
 
             <div class="choose-checkout-right-grid">
 
-                <div class="choose-right-boxes bg-white d-flex px-4 py-2">
+                <div class="choose-right-boxes bg-white d-flex px-1 py-2  px-sm-4 py-sm-2">
 
                     <div class="choose-right-bx-left">
 
@@ -499,7 +508,7 @@
 
                 </div>
 
-                <div class="choose-right-boxes bg-white d-flex px-4 py-2">
+                <div class="choose-right-boxes bg-white d-flex px-1 py-2  px-sm-4 py-sm-2">
 
                     <div class="choose-right-bx-left">
 
@@ -519,7 +528,7 @@
 
                 </div>
 
-                <div class="choose-right-boxes bg-white d-flex px-4 py-2">
+                <div class="choose-right-boxes bg-white d-flex px-1 py-2  px-sm-4 py-sm-2">
 
                     <div class="choose-right-bx-left">
 
@@ -539,7 +548,7 @@
 
                 </div>
 
-                <div class="choose-right-boxes bg-white d-flex px-4 py-2">
+                <div class="choose-right-boxes bg-white d-flex px-1 py-2  px-sm-4 py-sm-2">
 
                     <div class="choose-right-bx-left">
 
@@ -592,7 +601,8 @@
     </div>
 
 
-    <footer >
+
+    <footer class="for-desktop" style="color: white;">
 
         <div class="footer-top d-flex text-white">
 
@@ -687,7 +697,7 @@
 
 
                 <div class="ggl-btn d-flex align-items-center gap-2 ">
-                    <!--  -->
+                
 
 
 
@@ -741,7 +751,7 @@
 
 
 
-                    <!--  -->
+                  
                 </div>
 
 
@@ -809,7 +819,7 @@
                         </svg>
                         <span class="text">Twitter</span>
                     </button>
-                    </div>
+                </div>
 
 
 
@@ -833,7 +843,132 @@
             </div>
 
         </div>
-    </footer>
+    </footer> 
+
+
+
+
+ <footer class="for-mobile footer-mob container-fluid">
+
+    <div class="accordion">
+        <div class="accordion__item">
+            <div class="accordion__header" data-toggle="#faq1">Company</div>
+            <div class="accordion__content d-flex flex-column " id="faq1">
+                <a href="" class="menu__link text-decoration-none text-white"> Career</a>
+                <a href="" class="menu__link text-decoration-none text-white"> Career</a>
+                <a href="" class="menu__link text-decoration-none text-white"> Career</a>
+                <a href="" class="menu__link text-decoration-none text-white"> Career</a>
+                <a href="" class="menu__link text-decoration-none text-white"> Career</a>
+                <a href="" class="menu__link text-decoration-none text-white"> Career</a>
+
+  
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__header" data-toggle="#faq2">Solutions</div>
+            <div class="accordion__content" id="faq2">
+             <p>About us</p>
+                <p>About us</p>
+                <p>About us</p>
+                <p>About us</p>
+                <p>About us</p>
+                <p>About us</p>
+            
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__header" data-toggle="#faq3">Community</div>
+            <div class="accordion__content" id="faq3">
+          <p>About us</p>
+            <p>About us</p>
+            <p>About us</p>
+            <p>About us</p>
+            <p>About us</p>
+            <p>About us</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="d-flex flex-column gap-2 align-items-center pt-3">
+        <p class="text-white">©2024 Realezi. All rights reserved</p>
+
+        <p class="text-white">Made with love from Realezi</p>
+
+        <div class="d-flex">
+
+            <div class="container">
+                <button class="Btn instagram">
+                    <svg
+                    class="svgIcon"
+                    viewBox="0 0 448 512"
+                    height="1.5em"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    ></path>
+                    </svg>
+                    <span class="text">Instagram</span>
+                </button>
+
+                <button class="Btn youtube">
+                    <svg
+                    class="svgIcon"
+                    viewBox="0 0 576 512"
+                    height="1.5em"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M549.655 148.28c-6.281-23.64-24.041-42.396-47.655-48.685C462.923 85 288 85 288 85S113.077 85 74 99.595c-23.614 6.289-41.374 25.045-47.655 48.685-12.614 47.328-12.614 147.717-12.614 147.717s0 100.39 12.614 147.718c6.281 23.64 24.041 42.396 47.655 48.684C113.077 427 288 427 288 427s174.923 0 214-14.595c23.614-6.289 41.374-25.045 47.655-48.685 12.614-47.328 12.614-147.718 12.614-147.718s0-100.389-12.614-147.717zM240 336V176l144 80-144 80z"
+                    ></path>
+                    </svg>
+                    <span class="text">YouTube</span>
+                </button>
+
+                <button class="Btn twitter">
+                    <svg
+                    class="svgIcon"
+                    viewBox="0 0 512 512"
+                    height="1.5em"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M512 97.248c-18.84 8.36-39.082 14.008-60.277 16.54 21.62-12.92 38.212-33.216 46.042-57.45-20.242 12-42.71 20.67-66.61 25.41-19.128-20.412-46.344-33.21-76.51-33.21-58 0-105 47-105 105 0 8.22.926 16.188 2.714 23.914-87.18-4.376-164.66-46.2-216.45-109.97-9.066 15.508-14.254 33.586-14.254 52.836 0 36.37 18.54 68.542 46.844 87.428-17.272-.554-33.52-5.286-47.754-13.158v1.32c0 50.828 36.13 93.15 84.198 102.79-8.826 2.396-18.14 3.686-27.734 3.686-6.78 0-13.34-.664-19.676-1.902 13.36 41.77 52.164 72.198 98.116 73.052-35.96 28.17-81.38 44.99-130.76 44.99-8.54 0-16.94-.5-25.14-1.476 46.684 29.922 101.99 47.31 161.18 47.31 193.32 0 298.924-160.078 298.924-298.926 0-4.554-.106-9.086-.306-13.594 20.546-14.824 38.364-33.298 52.456-54.422z"
+                    ></path>
+                    </svg>
+                    <span class="text">Twitter</span>
+                </button>
+
+                
+            </div>
+
+            <button class="Btn-link">
+                <svg
+                    viewBox="0 0 16 16"
+                    height="16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svgIcon-link"
+                >
+                    <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                    ></path>
+                </svg>
+                <span class="text-link">LinkedIn</span>
+                </button>
+
+
+
+        </div>
+    </div>
+
+
+    </footer> 
 
 
 
